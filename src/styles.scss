@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	font-family: 'PT Serif', serif;
+}
+
+
+h1 {
+	display: flex;
+	font-family: 'Bevan', cursive;
+	justify-content: center;
+	font-size: 50px;
+}
+
+.subheader {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 35px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+
+/* Begining sidebar */
+
+.sidebar {
+	padding-top: 0px;
+}
+
+.sidebar .sidebar__subtitle {
+		text-align: center;
+		font-size: 25px;
+		margin-top: 10px;
+}
+
+.sidebar hr {
+	width: 50%;
+
+	background-color: black; 
+}
+
+.sidebar .sidebar__subsubtitle, .sidebar__subsubsubtitle {
+	text-align: center;
+}
+
+.sidebar .sidebar__subtitle, .sidebar__subsubtitle {
+	text-transform: uppercase;
+}
+
+.sidebar__subsubsubtitle {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.sidebar h5 {
+	text-align: center;
+}
+
+.sidebar p {
+	text-align: justify;
+	padding: 10px;
+}
+
+/* End sidebar */
+
+/* Begining content */
+
+.content {
+	margin-top: 20px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+.hero img {
+	width: 100%;
+}
+
+.hero {
+	border-bottom: 3px solid black;
+}
+
+
+.content__center h3 {
+	font-style: italic;
+}
+
+.content__centerText {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	padding-right: 10px;
+	border-bottom: 3px solid black;
+}
+
+.content__centerText p {
+	text-align: justify;
+}
+
+.content__centerText .content__centerTitle {
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.firstParagraph hr {
+	width: 50%;
+	background-color: black;
+}
+
+/* Ending content */
+
+/* Begining bottom article */
+
+.articleBottom__container {
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+.articleBottom .articleBottom__title {
+	font-style: italic;
+}
+
+.articleBottom__container img {
+	width: 100%;
+}
+
+.articleBottom__container p {
+	width: 95%;
+}
+
+.articleBottom__textWrap {
+	text-transform: uppercase;
+	width: 25%;
+	padding: 0px 20px 0px 0px;
+	float: left;
+}
+.articleBottom__textWrap h2{
+	margin-bottom: 0px;
+}
+
+.articleBottom__textWrap hr {
+	background-color: black;
+	width: 100%;
+}
+
+.articleBottom__content p {
+	margin: 0px;
+}
+/* Ending bottom article */
